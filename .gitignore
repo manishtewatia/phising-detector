@@ -15,7 +15,6 @@ phishing_detector.egg-info/
 data/
 
 # Model Weights
-*.joblib
 *.pkl
 
 # OS specific files
