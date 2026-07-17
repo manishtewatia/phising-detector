@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+phishing_detector.egg-info/
+
+# Datasets (Downloaded lists and generated train/test sets)
+data/
+
+# Model Weights
+*.joblib
+*.pkl
+
+# OS specific files
+.DS_Store
+Thumbs.db

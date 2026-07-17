@@ -1,0 +1,18 @@
+[project]
+name = "phishing-detector"
+version = "0.1.0"
+description = "Machine learning system to classify URLs as phishing or legitimate"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.2.0",
+    "xgboost>=1.7.0",
+    "tldextract>=3.4.0",
+    "python-whois>=0.8.0",
+    "requests>=2.30.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "ipykernel>=6.20.0",
+    "python-Levenshtein>=0.20.0",
+]
